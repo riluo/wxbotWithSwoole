@@ -15,6 +15,8 @@ $content = $response->getBody()->getContents();
 
 preg_match('/window.QRLogin.code = (\d+); window.QRLogin.uuid = \"(\S+?)\"/', $content, $matches);
 
+var_dump($content);
+
 if (!$matches) {
     throw new Exception('fetch uuid failed.');
 }
