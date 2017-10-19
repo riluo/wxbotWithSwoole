@@ -2,110 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4482bc11-d95a-439b-b29f-f3dbea34b758" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Extension/AbstractMessageHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/ApiExceptionHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Api/ApiHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/ApiServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/ArgumentException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Api/BaseApi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Migrations/BaseMigration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/BeforeMessageObserver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/CacheServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Card.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Commands/ClearSessionCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Commands/Command.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/ConfigErrorException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Console/Console.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/ConsoleServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/ContactFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/ContactServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Contact/Contacts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Support/Content.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/CreateGroupException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Emoticon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ExceptionHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/ExceptionServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/ExitObserver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/ExtensionException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/ExtensionServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/FetchContactObserver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/FetchUuidException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/File.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Support/File.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Contact/Friends.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/GroupChange.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Contact/Groups.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/Bootstrap/HandleExceptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Support/Http.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/HttpServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Image.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/InitFailException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/Kernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/Listener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Location.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Support/Log.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/LogServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/LoginFailedException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/LoginSuccessObserver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/LoginTimeoutException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Contact/Members.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Message.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Extension/MessageExtension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/MessageFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/MessageHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/MessageInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/MessageServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Commands/MigrationCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Mina.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Traits/Multimedia.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Contact/Myself.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/NeedActivateObserver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/NewFriend.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/Observer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/ObserverInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/ObserverNotFoundException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/ObserverServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Official.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Contact/Officials.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Console/QrCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/QrCodeObserver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/ReLoginSuccessObserver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Recall.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/RedPacket.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/RequestFriend.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Api/Search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Api/Send.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Traits/SendAble.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/Server.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/ServerServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviderInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Session/Session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Share.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/ShareFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Contact/Specials.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/Swoole.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/Sync.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Text.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Touch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Transfer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Migrations/UserMigration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/Vbot.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Video.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Voice.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/WebSyncException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Support/helpers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/bin/vbot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wxbotWithSwoole.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,8 +30,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46551725" vertical-offset="0" max-vertical-offset="645">
-              <caret line="18" column="98" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
+            <state vertical-scroll-proportion="0.43965518" vertical-offset="0" max-vertical-offset="660">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#p#0;n#!!top" expanded="true" />
               </folding>
@@ -737,8 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46551725" vertical-offset="0" max-vertical-offset="645">
-          <caret line="18" column="98" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
+        <state vertical-scroll-proportion="0.43965518" vertical-offset="0" max-vertical-offset="660">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#img#0;n#p#0;n#!!top" expanded="true" />
           </folding>

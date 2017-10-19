@@ -15,6 +15,7 @@ $response = $client->request('GET','https://login.weixin.qq.com/jslogin', [
     'verify' => false
 ]);
 $content = $response->getBody()->getContents();
+var_dump($content);
 
 preg_match('/window.QRLogin.code = (\d+); window.QRLogin.uuid = \"(\S+?)\"/', $content, $matches);
 
