@@ -10,7 +10,7 @@ $res = $client->request('GET', 'https://login.weixin.qq.com/jslogin', [
     'lang'  => 'zh_CN',
     '_'     => time(),
 ]);
-preg_match('/window.QRLogin.code = (\d+); window.QRLogin.uuid = \"(\S+?)\"/', $content, $matches);
+preg_match('/window.QRLogin.code = (\d+); window.QRLogin.uuid = \"(\S+?)\"/', $res, $matches);
 
 if (!$matches) {
     throw new Exception('fetch uuid failed.');
