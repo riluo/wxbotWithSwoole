@@ -6,6 +6,11 @@
  * Time: 下午3:14
  */
 require_once __DIR__.'/vendor/autoload.php';
+
+use GuzzleHttp\Client as HttpClient;
+use GuzzleHttp\Cookie\FileCookieJar;
+
+
 $path = __DIR__.'/tmp/';
 $options = [
     'path'     => $path,

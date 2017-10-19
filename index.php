@@ -1,16 +1,17 @@
 <?php
 require_once __DIR__.'/vendor/autoload.php';
+
 use PHPQRCode\QRcode;
 
 
-$client = new Sunland\Vbot\Support\Http();
-$content = $client->get('https://login.weixin.qq.com/jslogin', [
+$client = new GuzzleHttp\Client();
+$response = $client->request('GET','https://login.weixin.qq.com/jslogin', [
     'appid' => 'wx782c26e4c19acffb',
     'fun'   => 'new',
     'lang'  => 'zh_CN',
     '_'     => time(),
 ]);
-var_dump($content);
+$content = $response->getBody()->getContents();
 
 preg_match('/window.QRLogin.code = (\d+); window.QRLogin.uuid = \"(\S+?)\"/', $content, $matches);
 
