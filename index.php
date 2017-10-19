@@ -29,8 +29,8 @@ function _get($url,$params=[],$api = false){
     curl_setopt($oCurl, CURLOPT_URL, $url);
     curl_setopt($oCurl, CURLOPT_RETURNTRANSFER, 1 );
     curl_setopt($oCurl, CURLOPT_TIMEOUT, 36);
-    curl_setopt($oCurl, CURLOPT_COOKIEFILE, $this->cookie);
-    curl_setopt($oCurl, CURLOPT_COOKIEJAR, $this->cookie);
+    curl_setopt($oCurl, CURLOPT_COOKIEFILE, "cookie.cookie");
+    curl_setopt($oCurl, CURLOPT_COOKIEJAR, "cookie.cookie");
     $sContent = curl_exec($oCurl);
     $aStatus = curl_getinfo($oCurl);
     curl_close($oCurl);
