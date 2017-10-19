@@ -2,7 +2,110 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4482bc11-d95a-439b-b29f-f3dbea34b758" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Extension/AbstractMessageHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/ApiExceptionHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Api/ApiHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/ApiServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/ArgumentException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Api/BaseApi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Migrations/BaseMigration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/BeforeMessageObserver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/CacheServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Card.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Commands/ClearSessionCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Commands/Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/ConfigErrorException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Console/Console.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/ConsoleServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/ContactFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/ContactServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Contact/Contacts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Support/Content.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/CreateGroupException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Emoticon.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ExceptionHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/ExceptionServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/ExitObserver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/ExtensionException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/ExtensionServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/FetchContactObserver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/FetchUuidException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Support/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Contact/Friends.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/GroupChange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Contact/Groups.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/Bootstrap/HandleExceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Support/Http.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/HttpServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/InitFailException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/Listener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Location.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Support/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/LogServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/LoginFailedException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/LoginSuccessObserver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/LoginTimeoutException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Contact/Members.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Extension/MessageExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/MessageFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/MessageHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/MessageInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/MessageServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Commands/MigrationCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Mina.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Traits/Multimedia.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Contact/Myself.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/NeedActivateObserver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/NewFriend.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/Observer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/ObserverInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/ObserverNotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/ObserverServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Official.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Contact/Officials.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Console/QrCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/QrCodeObserver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Observers/ReLoginSuccessObserver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Recall.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/RedPacket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/RequestFriend.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Api/Search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Api/Send.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Traits/SendAble.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/Server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviders/ServerServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/ServiceProviderInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Session/Session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Share.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/ShareFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Contact/Specials.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/Swoole.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Core/Sync.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Touch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Transfer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Migrations/UserMigration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Foundation/Vbot.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Video.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Message/Voice.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Exceptions/WebSyncException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/src/Support/helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/hanson/vbot/bin/vbot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wxbotWithSwoole.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,35 +133,10 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43965518" vertical-offset="0" max-vertical-offset="630">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.46551725" vertical-offset="0" max-vertical-offset="645">
+              <caret line="18" column="98" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#p#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Http.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Http.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.541667" vertical-offset="1025" max-vertical-offset="1620">
-              <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="54" />
-              <folding>
-                <element signature="e#6#92#0#PHP" expanded="true" />
-                <element signature="e#94#130#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="daemon.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daemon.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.625" vertical-offset="285" max-vertical-offset="2955">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-              <folding>
-                <element signature="e#137#173#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,7 +145,7 @@
       <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../vbot/vbot-demo/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.125" vertical-offset="963" max-vertical-offset="1740">
+            <state vertical-scroll-proportion="-6.6666665" vertical-offset="950" max-vertical-offset="1740">
               <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
               <folding />
             </state>
@@ -77,17 +155,23 @@
       <file leaf-file-name="Server.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../vbot/vbot-demo/vendor/hanson/vbot/src/Core/Server.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0" vertical-offset="663" max-vertical-offset="5925">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="16" />
+            <state vertical-scroll-proportion="-14.625" vertical-offset="489" max-vertical-offset="5925">
+              <caret line="56" column="28" selection-start-line="56" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
                 <element signature="e#119#137#0#PHP" expanded="true" />
-                <marker date="1508385466000" expanded="true" signature="7891:7944" placeholder="SELECT * fro..config..." />
-                <marker date="1508385466000" expanded="true" signature="7984:8037" placeholder="SELECT * fro..config..." />
-                <marker date="1508385466000" expanded="true" signature="8195:8432" placeholder="UPDATE confi..." />
-                <marker date="1508385466000" expanded="true" signature="8476:8713" placeholder="UPDATE confi..." />
-                <marker date="1508385466000" expanded="true" signature="8759:9080" placeholder="insert into ..." />
-                <marker date="1508385466000" expanded="true" signature="9124:9445" placeholder="insert into ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Http.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/hanson/vbot/src/Support/Http.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.5" vertical-offset="990" max-vertical-offset="1620">
+              <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+              <folding>
+                <element signature="e#122#158#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +195,7 @@
         <option value="$PROJECT_DIR$/vendor/composer/installed.json" />
         <option value="$PROJECT_DIR$/Http.php" />
         <option value="$PROJECT_DIR$/daemon.php" />
+        <option value="$PROJECT_DIR$/vendor/hanson/vbot/src/Support/Http.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -197,21 +282,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vbot-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="wxbotWithSwoole" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wxbotWithSwoole" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vbot-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -229,7 +300,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vbot-demo" />
+              <option name="myItemId" value="wxbotWithSwoole" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -255,7 +326,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vbot-demo" />
+              <option name="myItemId" value="wxbotWithSwoole" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -285,7 +356,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vbot-demo" />
+              <option name="myItemId" value="wxbotWithSwoole" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -309,6 +380,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxbotWithSwoole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxbotWithSwoole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxbotWithSwoole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="composer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxbotWithSwoole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxbotWithSwoole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vbot-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxbotWithSwoole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxbotWithSwoole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vbot-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -323,6 +448,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vendor" />
+      <recent name="$PROJECT_DIR$/vendor/composer" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/vendor/sunland/vbot/src/Support" />
       <recent name="$PROJECT_DIR$/vendor/sunland/vbot/src/Foundation" />
@@ -446,7 +573,7 @@
         <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1260">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
+            <element signature="e#6#90#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -456,7 +583,7 @@
         <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="1395">
           <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
           <folding>
-            <element signature="e#130#163#0#PHP" expanded="true" />
+            <element signature="e#130#163#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -466,7 +593,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#59#111#0#PHP" expanded="true" />
+            <element signature="e#59#111#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -492,7 +619,7 @@
         <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="1620">
           <caret line="34" column="71" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="71" />
           <folding>
-            <element signature="e#122#158#0#PHP" expanded="true" />
+            <element signature="e#122#158#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -502,8 +629,8 @@
         <state vertical-scroll-proportion="-16.875" vertical-offset="60" max-vertical-offset="1650">
           <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
           <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
-            <element signature="e#127#163#0#PHP" expanded="true" />
+            <element signature="e#6#92#0#PHP" expanded="false" />
+            <element signature="e#127#163#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -539,71 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665" vertical-offset="590" max-vertical-offset="1170">
-          <caret line="50" column="105" selection-start-line="50" selection-start-column="105" selection-end-line="50" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_files.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0" vertical-offset="213" max-vertical-offset="585">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/installed.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.5" vertical-offset="20838" max-vertical-offset="21210">
-          <caret line="1406" column="6" selection-start-line="1406" selection-start-column="6" selection-end-line="1406" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="1976" max-vertical-offset="2835">
-          <caret line="140" column="10" selection-start-line="140" selection-start-column="10" selection-end-line="140" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vbot/vbot-demo/vendor/hanson/vbot/src/Core/Server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0" vertical-offset="663" max-vertical-offset="5925">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="16" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#119#137#0#PHP" expanded="true" />
-            <marker date="1508385466000" expanded="true" signature="7891:7944" placeholder="SELECT * fro..config..." />
-            <marker date="1508385466000" expanded="true" signature="7984:8037" placeholder="SELECT * fro..config..." />
-            <marker date="1508385466000" expanded="true" signature="8195:8432" placeholder="UPDATE confi..." />
-            <marker date="1508385466000" expanded="true" signature="8476:8713" placeholder="UPDATE confi..." />
-            <marker date="1508385466000" expanded="true" signature="8759:9080" placeholder="insert into ..." />
-            <marker date="1508385466000" expanded="true" signature="9124:9445" placeholder="insert into ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vbot/vbot-demo/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.125" vertical-offset="963" max-vertical-offset="1740">
-          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/daemon.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.625" vertical-offset="285" max-vertical-offset="2955">
@@ -625,10 +687,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/LICENSE">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="574">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/hanson/vbot/bin/vbot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/hanson/vbot/src/Support/Http.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5" vertical-offset="990" max-vertical-offset="1620">
+          <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+          <folding>
+            <element signature="e#122#158#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vbot/vbot-demo/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665" vertical-offset="950" max-vertical-offset="1740">
+          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vbot/vbot-demo/vendor/hanson/vbot/src/Core/Server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.625" vertical-offset="489" max-vertical-offset="5925">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <element signature="e#119#137#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43965518" vertical-offset="0" max-vertical-offset="630">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.46551725" vertical-offset="0" max-vertical-offset="645">
+          <caret line="18" column="98" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
           <folding>
             <element signature="n#style#0;n#img#0;n#p#0;n#!!top" expanded="true" />
           </folding>

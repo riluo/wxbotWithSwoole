@@ -12,6 +12,7 @@ class ComposerStaticInita0cf403f9ce849a52757484c4d35013f
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        'c355e0897882ebe62200c783fabb8783' => __DIR__ . '/..' . '/hanson/vbot/src/Support/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -45,6 +46,10 @@ class ComposerStaticInita0cf403f9ce849a52757484c4d35013f
             'Illuminate\\Container\\' => 21,
             'Illuminate\\Config\\' => 18,
             'Illuminate\\Cache\\' => 17,
+        ),
+        'H' => 
+        array (
+            'Hanson\\Vbot\\' => 12,
         ),
         'G' => 
         array (
@@ -138,6 +143,10 @@ class ComposerStaticInita0cf403f9ce849a52757484c4d35013f
         'Illuminate\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/cache',
+        ),
+        'Hanson\\Vbot\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hanson/vbot/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (

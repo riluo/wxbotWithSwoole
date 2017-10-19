@@ -5,17 +5,18 @@ use PHPQRCode\QRcode;
 
 
 $client = new GuzzleHttp\Client();
+
 $response = $client->request('GET','https://login.weixin.qq.com/jslogin', [
     'appid' => 'wx782c26e4c19acffb',
     'fun'   => 'new',
     'lang'  => 'zh_CN',
     '_'     => time(),
+    'timeout' => 10,
+    'verify' => false
 ]);
 $content = $response->getBody()->getContents();
 
 preg_match('/window.QRLogin.code = (\d+); window.QRLogin.uuid = \"(\S+?)\"/', $content, $matches);
-
-var_dump($content);
 
 if (!$matches) {
     throw new Exception('fetch uuid failed.');
