@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../vbot/vbot-demo" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/vendor/predis/predis/src" isTestSource="false" packagePrefix="Predis" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/psr/log" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/aferrandini/phpqrcode/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/monolog/monolog/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/monolog/monolog/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/nesbot/carbon/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle/src" isTestSource="false" packagePrefix="GuzzleHttp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

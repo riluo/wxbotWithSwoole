@@ -22,5 +22,9 @@ $code = new QRcode();
 $code::png("https://login.weixin.qq.com/l/".$uuid, "./img/".$uuid.".png", 'H', 4, 2);
 ?>
 <p align="center"><img src="./img/<?php echo $imgName;?>.png" style="margin-top:10px;" /></p>
+<?php
+$cmd = "/usr/local/php/bin/php /data/wwwroot/wxbotWithSwoole/daemon.php $uuid";
+pclose(popen($cmd.' > /tmp/vbot.log &', 'r'));
+?>
 
 
